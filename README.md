@@ -1,7 +1,7 @@
 and in sudo nano /etc/nginx/sites-available/default
 
 ***
-
+/
 upstream wordpress  {
     server localhost:8081 weight=1;
     server localhost:8082 weight=1;
@@ -22,5 +22,5 @@ server {
     }
 }
 
-
+\
 ***
