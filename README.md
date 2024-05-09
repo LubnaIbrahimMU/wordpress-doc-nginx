@@ -1,5 +1,6 @@
 and in sudo nano /etc/nginx/sites-available/default
 
+***
 
 upstream wordpress  {
     server localhost:8081 weight=1;
@@ -20,3 +21,6 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+
+
+***
